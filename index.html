@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organização Exemplo — Inicial</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="images/logo.webp" alt="Logo da Organização" class="logo">
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos Sociais</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Voluntários em ação" class="hero-img">
+      <h1>Bem‑vindo à Organização Exemplo</h1>
+      <p>Trabalhando por um futuro melhor através do voluntariado e do apoio comunitário.</p>
+    </section>
+
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">Sobre a Organização</h2>
+      <article>
+        <h3>Missão</h3>
+        <p>Nossa missão é promover inclusão social...</p>
+      </article>
+      <article>
+        <h3>Contato</h3>
+        <address>
+          <p>Email: <a href="mailto:contato@exemplo.org">contato@exemplo.org</a></p>
+          <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+          <p>Endereço: Rua Exemplo, 123 — Cidade/UF</p>
+        </address>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Organização Exemplo — Todos os direitos reservados.</p>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
